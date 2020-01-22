@@ -1,4 +1,4 @@
-package com.mx.xozello;
+package com.mx.xozello.apple;
 
 import java.util.ArrayList;
 import java.util.Arrays;
