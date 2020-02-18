@@ -1,5 +1,6 @@
-package com.mx.xozello.apple;
+package com.mx.xozello.apple.consumer;
 
+import com.mx.xozello.apple.function.AppleFormatter;
 import com.mx.xozello.model.Apple;
 
 public class AppleSimpleFormatter implements AppleFormatter {

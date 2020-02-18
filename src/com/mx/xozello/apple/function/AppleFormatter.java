@@ -1,7 +1,8 @@
-package com.mx.xozello.apple;
+package com.mx.xozello.apple.function;
 
 import com.mx.xozello.model.Apple;
 
+@FunctionalInterface
 public interface AppleFormatter {
 	String accept(Apple apple);
 }
