@@ -36,4 +36,17 @@ public class Color {
 		this.blue = blue;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Color [red=");
+		builder.append(red);
+		builder.append(", green=");
+		builder.append(green);
+		builder.append(", blue=");
+		builder.append(blue);
+		builder.append("]");
+		return builder.toString();
+	}
+
 }

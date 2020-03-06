@@ -31,7 +31,17 @@ public class Dish {
 
 	@Override
 	public String toString() {
-		return name;
+		StringBuilder builder = new StringBuilder();
+		builder.append("Dish [name=");
+		builder.append(name);
+		builder.append(", vegetarian=");
+		builder.append(vegetarian);
+		builder.append(", calories=");
+		builder.append(calories);
+		builder.append(", type=");
+		builder.append(type);
+		builder.append("]");
+		return builder.toString();
 	}
 
 	public enum Type {

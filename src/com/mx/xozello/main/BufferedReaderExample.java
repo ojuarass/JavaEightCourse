@@ -1,4 +1,4 @@
-package com.mx.xozello.apple;
+package com.mx.xozello.main;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
